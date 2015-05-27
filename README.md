@@ -1,6 +1,6 @@
 #Initial Set Up!
 
-1. In a browser tab, go to: `https://c9.io/`
+1. In a browser tab, go to: <a href="https://c9.io/" target="_blank">c9.io</a>
 2. Create a new, free account.
 3. Create a new workspace (give it a cool name) and select _Custom_ as the type.
 4. In the terminal: `sudo pip install pyzmq tornado scikit-learn`
