@@ -19,11 +19,10 @@ _Note 2: From now on, instead of "in the terminal", I'll write_ `$`.
 2. `$ rails s -p $PORT -b $IP` (ctrl-C to shutdown the server)
 3. '$ rails g scaffold User email password'
 4. '$ rake db:migrate'
-5. Copy the following into db/seeds.rb:  
+5. Copy the following code block into db/seeds.rb and then run: '$ rake db:seed'  
 ```
 User.create(email: 'sara@bu.edu', password: '12345')
 User.create(email: 'mark@gmail.com', password: 'apples')
 User.create(email: 'cali@yahoo.com', password: 'sdkdferih34234235rfkdfkhsdf')
 User.create(email: 'nathan@somerandomthing.com', password: 'nathan')
 ```
-6. '$ rake db:seed'
