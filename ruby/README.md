@@ -3,5 +3,5 @@
 2. `$ gem install sqlite3`
 3. Back in this (ruby) directory, run: `$ ruby db_connect_check.rb` (you should see some terminal output)
 4. `$ ruby process_server.rb` (will start a local ruby server)
-5. 
+5. In a new browser tab: `http://YOUR_COOL_WORKSPACE_NAME-c9-YOUR_USERNAME.c9.io/`
 
