@@ -2,7 +2,7 @@ require 'sqlite3'
 require 'webrick'
 include WEBrick
 
-s = HTTPServer.new(Port: 1234, DocumentRoot: File.join(Dir.pwd, '/'))
+s = HTTPServer.new(Port: 8080, DocumentRoot: File.join(Dir.pwd, '/'))
 
 class Getter < HTTPServlet::AbstractServlet
 
