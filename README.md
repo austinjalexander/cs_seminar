@@ -19,7 +19,7 @@ _Note 2: From now on, instead of "in the terminal", I'll write_ `$`.
 2. In a new browser tab: `http://YOUR_COOL_WORKSPACE_NAME-c9-YOUR_USERNAME.c9.io/`
 
 
-##Create new SQLite database and a new table!
+##Create new SQLite database and a new table (and then delete it)!
 
 1. `$ cd sqlite3/`
 2. `$ sqlite3 COOL_APPNAME.db`
@@ -31,17 +31,19 @@ _Note 2: From now on, instead of "in the terminal", I'll write_ `$`.
 8. At the sqlite prompt: `.tables`
 9. At the sqlite prompt: `DROP TABLE USERS;`
 10. At the sqlite prompt: `.tables`
-11. Quite sqlite3 and then run step 6 to create the table again.
 
-_Note: From now on, instead of "at the sqlite prompt", I'll write_ `sqlite>`.
+_Note 1: Some people prefer singular table names. Also, SQL commands are upper-case by convention; personally, I prefer lower-case._
 
-##Create new user record!
+_Note 2: From now on, instead of "at the sqlite prompt", I'll write_ `sqlite>`.
+
+##Create a new user record (and then delete it)!
 
 1. `$ cd sqlite3/`
 2. `$ sqlite3 COOL_APPNAME.db`
 3. `sqlite> SELECT * FROM USERS;`
-3. `sqlite> INSERT INTO USERS (ID, LASTNAME, AGE)
-            VALUES (1, 'Jimmy', 25);`
-
+4. `sqlite> INSERT INTO USERS (firstname, age) VALUES ('Jimmy', 25);`
+5. `sqlite> SELECT * FROM USERS;`
+6. `sqlite> DELETE FROM USERS WHERE firstname = 'Jimmy';`
+7. `sqlite> select * from users;` (a taste of lower case!)
 
 

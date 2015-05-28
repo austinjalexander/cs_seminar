@@ -1,7 +1,7 @@
--- some people prefer singular table names
+-- made for SQLite3
 
 CREATE TABLE USERS(
-  ID INT PRIMARY KEY  NOT NULL,
-  LASTNAME TEXT       NOT NULL,
-  AGE INT             NOT NULL
+  id INTEGER PRIMARY KEY AUTOINCREMENT  NOT NULL,
+  firstname TEXT                        NOT NULL,
+  age INTEGER                           NOT NULL
 );
