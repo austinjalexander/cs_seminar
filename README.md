@@ -20,12 +20,12 @@ _Note 2: From now on, instead of "in the terminal", I'll write_ `$`.
 3. '$ rake db:migrate'
 4. Copy the following code block into db/seeds.rb and then run: '$ rake db:seed'  
 
-        ```ruby
-        User.create(email: 'sara@bu.edu', password: '12345')
-        User.create(email: 'mark@gmail.com', password: 'apples')
-        User.create(email: 'cali@yahoo.com', password: 'sdkdferih34234235rfkdfkhsdf')
-        User.create(email: 'nathan@somerandomthing.com', password: 'nathan')
-        ```
-        
+    ```ruby
+    User.create(email: 'sara@bu.edu', password: '12345')
+    User.create(email: 'mark@gmail.com', password: 'apples')
+    User.create(email: 'cali@yahoo.com', password: 'sdkdferih34234235rfkdfkhsdf')
+    User.create(email: 'nathan@somerandomthing.com', password: 'nathan')
+    ```
+
 5. `$ rails s -p $PORT -b $IP` (ctrl-C to shutdown the server)
 6. In a new browser tab: `http://YOUR_COOL_WORKSPACE_NAME-c9-YOUR_USERNAME.c9.io/`
