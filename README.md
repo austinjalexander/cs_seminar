@@ -39,7 +39,7 @@ _Note: From now on, instead of "at the sqlite prompt", I'll write_ `sqlite>`.
 
 1. `$ cd sqlite3/`
 2. `$ sqlite3 COOL_APPNAME.db`
-3. `sqlite> SELECT * FROM USERS;
+3. `sqlite> SELECT * FROM USERS;`
 3. `sqlite> INSERT INTO USERS (ID, LASTNAME, AGE)
             VALUES (1, 'Jimmy', 25);`
 
