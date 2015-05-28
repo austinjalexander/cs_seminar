@@ -35,12 +35,14 @@ class Poster < HTTPServlet::AbstractServlet
 
     db = SQLite3::Database.new "../sqlite3/cool_app.db"
 
-    # string interpolation!
+    # string interpolation! YOU HAVE ENTERED THE DANGER ZONE
     user = db.execute "select email, password from new_users where email = '#{email}' and password = '#{password}'"
 
     db.close if db
 
-    return 200, 'text/html', "You submitted: #{user}"
+    message = (user.length > 2) ? "<h3 style='text-align:center;margin-top:100px;'>uh oh.</h3>" : ""
+
+    return 200, 'text/html', "Now logged using email/password: #{user}#{message}"
   end
 end
 
