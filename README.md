@@ -16,8 +16,8 @@ _Note 2: From now on, instead of "in the terminal", I'll write_ `$`.
 #Create a Ruby on Rails app in like two seconds!
 
 1. Create a new <a href="https://c9.io/" target="_blank">c9.io</a> workspace (give it a cool name) and select _Ruby on Rails_ as the type.
-2. '$ rails g scaffold User email password'
-3. '$ rake db:migrate'
+2. `$ rails g scaffold User email password`
+3. `$ rake db:migrate`
 4. Copy the following code block into db/seeds.rb and then run: '$ rake db:seed'  
 
     ```ruby
