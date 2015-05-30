@@ -8,10 +8,23 @@
   <h1>Login Page to Awesomeness</h1>
 
   <form method='post' action='/process'>
-    Email: <input type='text' name='email' />
-    Password: <input type='text' name='password' />
-    <input type='submit' />
+    <div class="field">
+      <label for="email">Email</label><br />
+      <input autofocus="autofocus" id="email" name="email" type="email" value="" />
+      <!-- HTML5 email validation -->
+      <!--<input autofocus="autofocus" id="email" name="email" type="text" value="" />-->
+    </div>
+
+    <div class="field">
+      <label for="password">Password</label><br />
+      <input autocomplete="off" id="password" name="password" type="password" />
+    </div>
+
+    <div class="actions">
+      <input name="commit" type="submit" value="Log in" />
+    </div>
   </form>
 
 </body>
 </html>
+

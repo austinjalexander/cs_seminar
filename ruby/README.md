@@ -6,7 +6,7 @@
 5. In a new browser tab: `http://YOUR_COOL_WORKSPACE_NAME-c9-YOUR_USERNAME.c9.io/`
 
 
-#SQL Injection Protection!
+##SQL Injection Protection!
 
 1. `$ cd cool_app`
 2. `$ bundle install`
