@@ -6,7 +6,7 @@
 4. In the terminal: `sudo pip install pyzmq tornado scikit-learn`
 5. In the terminal: `sudo pip install ipython --upgrade`
 6. In the terminal: `sudo apt-get install python-pandas`
-7. In the terminal: `git clone https://github.com/austinjalexander/cs_whirlwind.git`
+7. In the terminal: `git clone https://github.com/austinjalexander/cs_seminar.git`
 
 _Note 1: Steps 4 and 5 above are not ideal, but using_ `sudo` _and_ `apt-get` _is necessary due to the memory constraints of a free account at_ Cloud9. _Feel free to ask me more about this bit._
 
