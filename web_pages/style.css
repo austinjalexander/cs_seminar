@@ -1,0 +1,16 @@
+p {
+  text-align: center;
+  color: #0000FF;
+  font-weight: bold;
+  font-size: 36px;
+}
+
+div {
+    border: 10px #000000 solid;
+    width: 70%;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+          
