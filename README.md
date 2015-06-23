@@ -12,3 +12,7 @@ _Note 1: Steps 4 and 5 above are not ideal, but using_ `sudo` _and_ `apt-get` _i
 
 _Note 2: From now on, instead of "in the terminal", I'll write_ `$`.
 
+
+turn off Apache server: `$ lsof -i tcp:$PORT`
+
+
